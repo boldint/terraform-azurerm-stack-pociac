@@ -20,7 +20,7 @@ module "network" {
 */
 
 module "rg" {
-  source   = "https://github.com/boldint/terraform-azurerm-module-rg.git?ref=master"
+  source   = "github.com/boldint/terraform-azurerm-module-rg?ref=master"
   name     = var.resource_group_name
   location = var.location
 }
